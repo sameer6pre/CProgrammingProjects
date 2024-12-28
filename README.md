@@ -36,8 +36,8 @@ Here's a list of some of the projects included in this repository:
 To run any of these projects, follow these general steps:
 ### 1. Clone the Repository:
   ```sh
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+git clone https://github.com/ShravanDalavi/CProgrammingProjects.git
+cd CProgrammingProjects
   ```
 ### 2. Compile and Execute:
 Each project typically includes a 'README.md' file with specific instructions on how to compile and run the program. Navigate to the projectdirectory and follow the instructions provided in the README.md file.
