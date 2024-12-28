@@ -50,13 +50,14 @@ Replace repository-name with the actual repository name and executable_name with
 
 - Execute the compiled executable.
 
-### Example:
+### Example Commands for a Project
+Here’s a quick example for the attendance-monitoring-system project:
  ```sh
+cd CProgrammingProjects
 cd attendance-monitoring-system
 gcc main.c -o attendance
 ./attendance
  ```
-Replace repository-name with the actual repository name for each project.
 
 ## Prerequisites
 Make sure you have a C compiler installed (e.g., GCC). Some projects may require additional libraries or software, which will be specified in their respective folders.
