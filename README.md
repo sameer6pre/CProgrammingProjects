@@ -2,8 +2,12 @@
 
 ## Introduction
 Welcome to the C_ProgrammingProjects repository! This collection includes various projects implemented using the C programming language. Each project focuses on a specific concept, algorithm, or problem, providing hands-on experience and practical examples.
+
+---
+
 ## Projects Included
 Here's a list of some of the projects included in this repository: 
+
 | **No.** | **Name** | 
 | ------- | -------- | 
 |	**01**	| **[Attendance Monitoring System](https://github.com/ShravanDalavi/C_ProgrammingProjects/tree/main/projects/Attendance%20Monitoring%20System)** |
@@ -32,6 +36,8 @@ Here's a list of some of the projects included in this repository:
 |	**24**	| **[Tourism Management System](https://github.com/ShravanDalavi/C_ProgrammingProjects/tree/main/projects/Tourism%20Management%20System)** |
 |	**25**	| **[Weather Monitoring System](https://github.com/ShravanDalavi/C_ProgrammingProjects/tree/main/projects/Weather%20Monitoring%20System)** | 
 
+---
+
 ## How to Run
 To run any of these projects, follow these general steps:
 ### 1. Clone the Repository:
@@ -59,6 +65,8 @@ gcc main.c -o attendance
 ./attendance
  ```
 
+---
+
 ## Prerequisites
 Make sure you have a C compiler installed (e.g., GCC). Some projects may require additional libraries or software, which will be specified in their respective folders.
 
@@ -78,6 +86,8 @@ This will clear all the outputs and now you can understand each statement and le
 <br>
 If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
+---
+
 ## Licence 📜
 You may use this tutorial freely at your own risk. See [LICENSE](./LICENSE).
 
@@ -89,6 +99,12 @@ You may use this tutorial freely at your own risk. See [LICENSE](./LICENSE).
   - Contact: ashwinisonawane@gmail.com
   - GitHub:  [Profile](https://github.com/SonawaneAshwini)
     
-**If you like this tutorial, please [give it a ⭐ star](https://github.com/ShravanDalavi/C_ProgrammingProjects).**
+---
 
-**Thank you for visiting my repository! I hope you find my projects interesting and useful. 😊**
+### Feedback and Support
+We value your input! If you encounter any issues or have suggestions, please open an issue in this repository. Your feedback helps us improve!
+
+### Show Your Support
+**If you enjoyed this tutorial, don't forget to [⭐ star the repository](https://github.com/ShravanDalavi/C_ProgrammingProjects) and [follow for updates](https://github.com/ShravanDalavi).**
+
+**Thank you for exploring this repository! I hope you find these projects both interesting and useful. 😊**
