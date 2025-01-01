@@ -23,22 +23,35 @@ The program uses the standard C library modules:
 
 ## How to Install Required Modules
 No additional modules need to be installed. Ensure you have a C compiler like `gcc` installed on your system.
+
 ## How to Run the Script
-Follow these steps to compile and run the program:
-
-1. Save the code: Save the provided code to a file named `attendance_monitoring.c`.
-
-2. Open a terminal or command prompt: Navigate to the directory where you saved `attendance_monitoring.c`.
-
-3. Compile the code: Use a C compiler like gcc to compile the program. Run the following command:
-```bash 
-gcc attendance_monitoring.c -o attendance_monitoring
+### Prerequisites
+1. C Compiler: Make sure GCC (or any C compiler) is installed.
+2. Operating System: Compatible with Windows, Linux, or macOS.
+### Steps to Run
+1. Clone the Repository:
+```bash
+git clone https://github.com/ShravanDalavi/CProgrammingProjects.git
+cd projects/Attendance%20Monitoring%20System
 ```
-4. Run the compiled program: After successful compilation, run the program using:
-```bash 
-./attendance_monitoring
+
+2. Compile the Script: Use the following command to compile the attendance.c file:
+```bash
+gcc -o attendance attendance.c
 ```
-5. Follow the on-screen instructions: The program will display a menu with options to add records, display records, search records, delete records, or exit the program. Enter the corresponding number to choose an option.
+ 3.Run the Script:
+- On Windows:
+```bash
+attendance.exe
+```
+- On Linux/Mac:
+```bash
+./attendance
+```
+4. Follow the Menu:
+
+- After running the program, select an option from the menu to perform desired operations like adding, viewing, or updating attendance.
+   
 ## Output
 ```mathematica
 Attendance Monitoring System
