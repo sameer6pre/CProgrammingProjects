@@ -1,7 +1,9 @@
 # Bank Management System
 This Bank Management System allows you to manage bank accounts, including creating new accounts, depositing money, withdrawing money, and displaying account details. It is implemented in C.
+
 ## Description
-The program defines a structure to store account information such as account number, account holder's name, and balance. It includes functions to create new accounts, deposit money into an account, withdraw money from an account, and display all account details.
+The program defines a structure to store account information such as account number, account holder's name, and balance. It includes functions to create new accounts, deposit money into an account, withdraw money from an account, and display all account details
+
 ## Features
 - Create a new bank account
 - Deposit money into an account
