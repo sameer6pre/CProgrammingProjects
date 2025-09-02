@@ -19,6 +19,23 @@ struct Tourist tourists[MAX_TOURISTS];
 int touristCount = 0;
 
 // Function to add a new tourist
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_TOURISTS 100
+#define NAME_LEN 64
+#define DEST_LEN 64
+
+struct Tourist {
+    int id;
+    char name[NAME_LEN];
+    char destination[DEST_LEN];
+    int days;
+};
+
+struct Tourist tourists[MAX_TOURISTS];
+int touristCount = 0;
+
 void addTourist() {
     if (touristCount >= MAX_TOURISTS) {
         printf("Cannot add more tourists. The list is full.\n");
@@ -26,16 +43,36 @@ void addTourist() {
     }
     struct Tourist newTourist;
     printf("Enter Tourist ID: ");
-    scanf("%d", &newTourist.id);
+    if (scanf("%d", &newTourist.id) != 1) {
+        printf("Invalid input for ID.\n");
+        // Clear stdin
+        int c; while ((c = getchar()) != '\n' && c != EOF);
+        return;
+    }
     printf("Enter Tourist Name: ");
-    scanf("%s", newTourist.name);
+    // FIX: Use width specifier to prevent buffer overflow
+    if (scanf("%63s", newTourist.name) != 1) {
+        printf("Invalid input for name.\n");
+        int c; while ((c = getchar()) != '\n' && c != EOF);
+        return;
+    }
     printf("Enter Destination: ");
-    scanf("%s", newTourist.destination);
+    if (scanf("%63s", newTourist.destination) != 1) {
+        printf("Invalid input for destination.\n");
+        int c; while ((c = getchar()) != '\n' && c != EOF);
+        return;
+    }
     printf("Enter Number of Days: ");
-    scanf("%d", &newTourist.days);
+    if (scanf("%d", &newTourist.days) != 1) {
+        printf("Invalid input for days.\n");
+        int c; while ((c = getchar()) != '\n' && c != EOF);
+        return;
+    }
     tourists[touristCount++] = newTourist;
     printf("Tourist added successfully!\n");
 }
+
+// The fix uses width specifiers in scanf (e.g., "%63s") to ensure that no more than the buffer size minus one is read, preventing buffer overflow. It also checks scanf return values and clears stdin on error for robustness.
 
 // Function to display all tourists
 void displayTourists() {
